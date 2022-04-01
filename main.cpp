@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Reverse.h"
 #include "Truckloads.h"
-#include "EfficientTruckLoads.h"
+#include "EfficientTruckloads.h"
 
 using namespace std;
 
@@ -17,7 +17,7 @@ int main() {
 
     Reverse r;
     Truckloads truckLoads;
-    EfficientTruckLoads efficientTruckLoads;
+    EfficientTruckloads efficientTruckLoads;
 
     if (num >= 0) {
         cout << r.reverseDigit(num);
