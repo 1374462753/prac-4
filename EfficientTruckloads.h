@@ -2,18 +2,17 @@
 #define EFFICIENTTRUCKLOADS_H
 
 #include <string>
-#include "Truckloads.h"
 
 using namespace std;
 
 
-class EfficientTruckloads : public Truckloads {
+class EfficientTruckloads  {
 public:
     EfficientTruckloads();
 
     void initialize();
 
-    int numTrucks(int numCrates, int loadSize) override;
+    int numTrucks(int numCrates, int loadSize) ;
 
 private:
     bool valid[10001];
