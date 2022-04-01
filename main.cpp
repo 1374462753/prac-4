@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Reverse.h"
-#include "TruckLoads.h"
+#include "Truckloads.h"
 #include "EfficientTruckLoads.h"
 
 using namespace std;
@@ -16,7 +16,7 @@ int main() {
     cin >> loadSize;
 
     Reverse r;
-    TruckLoads truckLoads;
+    Truckloads truckLoads;
     EfficientTruckLoads efficientTruckLoads;
 
     if (num >= 0) {

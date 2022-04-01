@@ -23,8 +23,8 @@ int EfficientTruckLoads::numTrucks(int numCrates, int loadSize) {
             int a = numCrates / 2;
             int b = numCrates - a;
             int cars = 0;
-            cars += TruckLoads::numTrucks(a, loadSize);
-            cars += TruckLoads::numTrucks(b, loadSize);
+            cars += Truckloads::numTrucks(a, loadSize);
+            cars += Truckloads::numTrucks(b, loadSize);
             result[numCrates] = cars;
             return cars;
         } else {

@@ -2,12 +2,12 @@
 #define EFFICIENTTRUCKLOADS_H
 
 #include <string>
-#include "TruckLoads.h"
+#include "Truckloads.h"
 
 using namespace std;
 
 
-class EfficientTruckLoads : public TruckLoads {
+class EfficientTruckLoads : public Truckloads {
 public:
     EfficientTruckLoads();
 
