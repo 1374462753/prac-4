@@ -2,9 +2,9 @@
 #define EFFICIENTTRUCKLOADS_H
 
 #include <string>
+#include <map>
 
 using namespace std;
-
 
 class EfficientTruckloads  {
 public:
@@ -15,8 +15,7 @@ public:
     int numTrucks(int numCrates, int loadSize) ;
 
 private:
-    bool valid[10001];
-    int result[10001];
+    map<int, int> mem;
     int prevLoadSize = 0;
 };
 

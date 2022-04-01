@@ -10,14 +10,18 @@ int main() {
     string s;
     int numCrates;
     int loadSize;
+
+    Reverse r;
+    Truckloads truckLoads;
+    EfficientTruckloads efficientTruckLoads;
+
+//    cout << efficientTruckLoads.numTrucks(40000000, 2) << endl;
+
     cin >> num;
     cin >> s;
     cin >> numCrates;
     cin >> loadSize;
 
-    Reverse r;
-    Truckloads truckLoads;
-    EfficientTruckloads efficientTruckLoads;
 
     if (num >= 0) {
         cout << r.reverseDigit(num);
